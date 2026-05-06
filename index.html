@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InAmigos Foundation — Empowering Lives, Spreading Compassion</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="logo">
+        <!-- IMAGE PLACEHOLDER: Replace src with downloaded NGO logo -->
+        <!-- Suggested file name: logo.png -->
+        <!-- Download from: https://inamigosfoundation.org.in/ (top-left logo) -->
+        <img src="logo.png" alt="InAmigos Foundation Logo" class="logo-img"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+        <div class="logo-fallback" style="display:none;">InAmigos<span>Foundation</span></div>
+      </div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#impact">Impact</a>
+        <a href="#events">Events</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a href="https://rzp.io/l/kWQ87HP" class="nav-cta" target="_blank">Donate Now</a>
+      </nav>
+      <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" onclick="toggleMenu()">About</a>
+      <a href="#projects" onclick="toggleMenu()">Projects</a>
+      <a href="#impact" onclick="toggleMenu()">Impact</a>
+      <a href="#events" onclick="toggleMenu()">Events</a>
+      <a href="#gallery" onclick="toggleMenu()">Gallery</a>
+      <a href="#contact" onclick="toggleMenu()">Contact</a>
+      <a href="https://rzp.io/l/kWQ87HP" class="nav-cta" target="_blank">Donate Now</a>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section class="hero" id="home">
+    <!-- IMAGE PLACEHOLDER: Hero background image -->
+    <!-- Suggested file name: hero-bg.jpg -->
+    <!-- Download from: InAmigos Instagram @inamigos — use a volunteer group photo or community event photo -->
+    <!-- Place the file in the same folder as index.html -->
+    <!-- Then uncomment this style in style.css: .hero { background-image: url('hero-bg.jpg'); } -->
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <span class="hero-eyebrow">Est. September 23, 2020 · Bilaspur, Chhattisgarh</span>
+      <h1 class="hero-title">Empowering Lives,<br /><em>Spreading Compassion</em></h1>
+      <p class="hero-sub">
+        A Section 8 non-profit reaching <strong>50,000+ beneficiaries</strong> across
+        <strong>28 states</strong> through education, welfare, and environmental action.
+      </p>
+      <div class="hero-actions">
+        <a href="https://forms.gle/AB4c1hLaDDmtrKGU7" target="_blank" class="btn btn-primary">Become a Volunteer</a>
+        <a href="#projects" class="btn btn-outline">Explore Our Work</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">↓ scroll</div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT SECTION
+  ============================================================ -->
+  <section class="about section" id="about">
+    <div class="container about-grid">
+      <div class="about-image-col">
+        <!-- IMAGE PLACEHOLDER: About section image -->
+        <!-- Suggested file name: about.jpg -->
+        <!-- Download from: InAmigos Facebook/Instagram — founder photo or team photo -->
+        <div class="img-wrapper">
+          <img src="about.jpg" alt="InAmigos Foundation Team"
+               onerror="this.parentElement.classList.add('img-placeholder')" />
+          <div class="img-caption">[ PLACE TEAM / FOUNDER PHOTO HERE — about.jpg ]</div>
+        </div>
+        <div class="certifications">
+          <span class="cert-badge">80G Certified</span>
+          <span class="cert-badge">12A Certified</span>
+          <span class="cert-badge">CSR-1</span>
+          <span class="cert-badge">NITI Aayog</span>
+          <span class="cert-badge">ISO 9001:2015</span>
+        </div>
+      </div>
+      <div class="about-text-col">
+        <span class="section-eyebrow">Who We Are</span>
+        <h2 class="section-title">Get to Know Us Better</h2>
+        <p>
+          InAmigos Foundation was founded on <strong>September 23, 2020</strong>, by
+          <strong>Mr. Govind Shukla (Founder & CEO)</strong>. We are a Section 8 registered
+          non-profit organization, licensed by the Central Government, headquartered in
+          Bilaspur, Chhattisgarh.
+        </p>
+        <p>
+          We hold <strong>80G & 12A certifications</strong>, ensuring transparency,
+          accountability, and tax-exempt benefits for donors. Our foundation is
+          <strong>CSR-1 registered</strong>, allowing corporate partnerships, and
+          <strong>NITI Aayog registered</strong>, aligning our work with national
+          development goals.
+        </p>
+        <p>
+          We believe in the power of collective action. Every contribution drives
+          food distribution, education, women empowerment, animal welfare, environmental
+          sustainability and social inclusion — across India.
+        </p>
+        <a href="https://inamigosfoundation.org.in/page/About-Us" class="btn btn-primary" target="_blank">Learn More About Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROJECTS SECTION
+  ============================================================ -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Our Initiatives</span>
+        <h2 class="section-title">6 Projects, One Mission</h2>
+        <p class="section-desc">Each project targets a critical gap in society — from hunger to education, animal welfare to women's empowerment.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- PROJECT 1: SEVA -->
+        <div class="project-card">
+          <!-- IMAGE PLACEHOLDER: Project Seva image -->
+          <!-- Suggested file name: project-seva.jpg -->
+          <!-- Download from: InAmigos Instagram — food distribution / clothing drive photos with #Seva or #InAmigos -->
+          <div class="project-img-wrap">
+            <img src="project-seva.jpg" alt="Project Seva"
+                 onerror="this.parentElement.classList.add('project-img-placeholder')" />
+            <div class="project-img-fallback">[ project-seva.jpg ]<br/>Food & Clothing Drive Photo ]</div>
+            <span class="project-tag">🍱 Food & Clothing</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Project Sewa</h3>
+            <p class="project-desc">Providing food and clothing to the underprivileged communities across India, ensuring no one sleeps hungry.</p>
+            <div class="project-impact">💛 Direct relief to thousands of families</div>
+          </div>
+        </div>
+
+        <!-- PROJECT 2: BACHPANSHALA -->
+        <div class="project-card">
+          <!-- IMAGE PLACEHOLDER: Project Bachpanshala image -->
+          <!-- Suggested file name: project-bachpanshala.jpg -->
+          <!-- Download from: InAmigos Instagram — classroom/teaching/children learning photos -->
+          <div class="project-img-wrap">
+            <img src="project-bachpanshala.jpg" alt="Project Bachpanshala"
+                 onerror="this.parentElement.classList.add('project-img-placeholder')" />
+            <div class="project-img-fallback">[ project-bachpanshala.jpg ]<br/>Education / Children Photo ]</div>
+            <span class="project-tag">📚 Education</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Project Bachpanshala</h3>
+            <p class="project-desc">Ensuring quality education for underprivileged children — nurturing young minds and building bright futures.</p>
+            <div class="project-impact">💛 Free education for marginalised children</div>
+          </div>
+        </div>
+
+        <!-- PROJECT 3: JEEV -->
+        <div class="project-card">
+          <!-- IMAGE PLACEHOLDER: Project Jeev image -->
+          <!-- Suggested file name: project-jeev.jpg -->
+          <!-- Download from: InAmigos Instagram — animal rescue/feeding photos -->
+          <div class="project-img-wrap">
+            <img src="project-jeev.jpg" alt="Project Jeev"
+                 onerror="this.parentElement.classList.add('project-img-placeholder')" />
+            <div class="project-img-fallback">[ project-jeev.jpg ]<br/>Animal Rescue / Welfare Photo ]</div>
+            <span class="project-tag">🐾 Animal Welfare</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Project Jeev</h3>
+            <p class="project-desc">Animal welfare through rescue, protection, and feeding — because compassion has no species barrier.</p>
+            <div class="project-impact">💛 Rescue & care of stray and injured animals</div>
+          </div>
+        </div>
+
+        <!-- PROJECT 4: UDAAN -->
+        <div class="project-card">
+          <!-- IMAGE PLACEHOLDER: Project Udaan image -->
+          <!-- Suggested file name: project-udaan.jpg -->
+          <!-- Download from: InAmigos Instagram — women empowerment / skill training photos -->
+          <div class="project-img-wrap">
+            <img src="project-udaan.jpg" alt="Project Udaan"
+                 onerror="this.parentElement.classList.add('project-img-placeholder')" />
+            <div class="project-img-fallback">[ project-udaan.jpg ]<br/>Women Empowerment / Skills Photo ]</div>
+            <span class="project-tag">👩 Women Empowerment</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Project Udaan</h3>
+            <p class="project-desc">Empowering women through skill development and financial independence — soaring towards a brighter future.</p>
+            <div class="project-impact">💛 Vocational skills & entrepreneurship training</div>
+          </div>
+        </div>
+
+        <!-- PROJECT 5: PRAKRITI -->
+        <div class="project-card">
+          <!-- IMAGE PLACEHOLDER: Project Prakriti image -->
+          <!-- Suggested file name: project-prakriti.jpg -->
+          <!-- Download from: InAmigos Instagram — tree plantation / environment drive photos -->
+          <div class="project-img-wrap">
+            <img src="project-prakriti.jpg" alt="Project Prakriti"
+                 onerror="this.parentElement.classList.add('project-img-placeholder')" />
+            <div class="project-img-fallback">[ project-prakriti.jpg ]<br/>Tree Plantation / Environment Photo ]</div>
+            <span class="project-tag">🌿 Environment</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Project Prakriti</h3>
+            <p class="project-desc">Environmental conservation and sustainability efforts — planting trees and protecting the planet for tomorrow.</p>
+            <div class="project-impact">💛 Tree plantations & eco-awareness drives</div>
+          </div>
+        </div>
+
+        <!-- PROJECT 6: VIKAS -->
+        <div class="project-card">
+          <!-- IMAGE PLACEHOLDER: Project Vikas image -->
+          <!-- Suggested file name: project-vikas.jpg -->
+          <!-- Download from: InAmigos Instagram — skill development / workshop photos -->
+          <div class="project-img-wrap">
+            <img src="project-vikas.jpg" alt="Project Vikas"
+                 onerror="this.parentElement.classList.add('project-img-placeholder')" />
+            <div class="project-img-fallback">[ project-vikas.jpg ]<br/>Skill Development / Workshop Photo ]</div>
+            <span class="project-tag">🛠 Skill Development</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Project Vikas</h3>
+            <p class="project-desc">Enhancing employability through structured skill development programs, creating pathways to sustainable livelihoods.</p>
+            <div class="project-impact">💛 Employment-ready training programs</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       IMPACT STATS SECTION
+  ============================================================ -->
+  <section class="impact section" id="impact">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-eyebrow">Our Reach</span>
+        <h2 class="section-title">Social Impact in Numbers</h2>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">200<span>+</span></div>
+          <div class="stat-label">Active Volunteers</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">28</div>
+          <div class="stat-label">States Reached</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">6</div>
+          <div class="stat-label">Active Projects</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">50K<span>+</span></div>
+          <div class="stat-label">Lives Impacted</div>
+        </div>
+      </div>
+      <p class="impact-mission">
+        "At InAmigos Foundation, we believe in the power of collective action. Every contribution
+        is directed towards essential causes — food, education, women empowerment, animal welfare,
+        environmental sustainability and social inclusion — across India."
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       EVENTS SECTION
+  ============================================================ -->
+  <section class="events section" id="events">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Recent Activities</span>
+        <h2 class="section-title">Our Events</h2>
+      </div>
+      <div class="events-grid">
+
+        <div class="event-card">
+          <!-- IMAGE PLACEHOLDER: World Water Day event image -->
+          <!-- Suggested file name: event-water.jpg -->
+          <!-- Download from: https://inamigosfoundation.org.in/event/world-water-day-2025 -->
+          <div class="event-img-wrap">
+            <img src="event-water.jpg" alt="World Water Day 2025"
+                 onerror="this.parentElement.classList.add('event-img-placeholder')" />
+            <div class="event-img-fallback">[ event-water.jpg ]</div>
+          </div>
+          <div class="event-meta">
+            <span class="event-category">Community</span>
+            <span class="event-date">March 22, 2025</span>
+          </div>
+          <h3 class="event-title">World Water Day 2025</h3>
+          <p class="event-desc">Highlighting the importance of water conservation and collective action to ensure clean water for all.</p>
+          <a href="https://inamigosfoundation.org.in/event/world-water-day-2025" class="event-link" target="_blank">Read More →</a>
+        </div>
+
+        <div class="event-card">
+          <!-- IMAGE PLACEHOLDER: International Day of Happiness event image -->
+          <!-- Suggested file name: event-happiness.jpg -->
+          <!-- Download from: https://inamigosfoundation.org.in/event/international-day-of-happiness-2025 -->
+          <div class="event-img-wrap">
+            <img src="event-happiness.jpg" alt="International Day of Happiness 2025"
+                 onerror="this.parentElement.classList.add('event-img-placeholder')" />
+            <div class="event-img-fallback">[ event-happiness.jpg ]</div>
+          </div>
+          <div class="event-meta">
+            <span class="event-category">Community</span>
+            <span class="event-date">March 20, 2025</span>
+          </div>
+          <h3 class="event-title">International Day of Happiness 2025</h3>
+          <p class="event-desc">Spreading joy, positivity, and well-being through engaging activities and inspiring community discussions.</p>
+          <a href="https://inamigosfoundation.org.in/event/international-day-of-happiness-2025" class="event-link" target="_blank">Read More →</a>
+        </div>
+
+        <div class="event-card">
+          <!-- IMAGE PLACEHOLDER: Women and Girls in Science event image -->
+          <!-- Suggested file name: event-science.jpg -->
+          <!-- Download from: https://inamigosfoundation.org.in/event/international-day-women-girls-science-2025 -->
+          <div class="event-img-wrap">
+            <img src="event-science.jpg" alt="Women and Girls in Science 2025"
+                 onerror="this.parentElement.classList.add('event-img-placeholder')" />
+            <div class="event-img-fallback">[ event-science.jpg ]</div>
+          </div>
+          <div class="event-meta">
+            <span class="event-category">Education</span>
+            <span class="event-date">February 11, 2025</span>
+          </div>
+          <h3 class="event-title">Women & Girls in Science 2025</h3>
+          <p class="event-desc">Celebrating women's contribution to science and inspiring the next generation of female scientists and researchers.</p>
+          <a href="https://inamigosfoundation.org.in/event/international-day-women-girls-science-2025" class="event-link" target="_blank">Read More →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       GALLERY SECTION
+  ============================================================ -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">On the Ground</span>
+        <h2 class="section-title">Our Gallery</h2>
+        <p class="section-desc">Real moments. Real impact. Captured from our projects across India.</p>
+      </div>
+      <div class="gallery-grid">
+
+        <!-- IMAGE PLACEHOLDER 1 -->
+        <!-- Suggested file name: gallery-1.jpg -->
+        <!-- Download from: InAmigos Instagram @inamigos OR official website gallery -->
+        <div class="gallery-item">
+          <img src="gallery-1.jpg" alt="InAmigos Foundation Gallery 1"
+               onerror="this.parentElement.classList.add('gallery-placeholder')" />
+          <div class="gallery-fallback">[ gallery-1.jpg ]<br/>Download from Instagram @inamigos ]</div>
+        </div>
+
+        <!-- IMAGE PLACEHOLDER 2 -->
+        <!-- Suggested file name: gallery-2.jpg -->
+        <div class="gallery-item">
+          <img src="gallery-2.jpg" alt="InAmigos Foundation Gallery 2"
+               onerror="this.parentElement.classList.add('gallery-placeholder')" />
+          <div class="gallery-fallback">[ gallery-2.jpg ]<br/>Download from Instagram @inamigos ]</div>
+        </div>
+
+        <!-- IMAGE PLACEHOLDER 3 -->
+        <!-- Suggested file name: gallery-3.jpg -->
+        <div class="gallery-item">
+          <img src="gallery-3.jpg" alt="InAmigos Foundation Gallery 3"
+               onerror="this.parentElement.classList.add('gallery-placeholder')" />
+          <div class="gallery-fallback">[ gallery-3.jpg ]<br/>Download from Instagram @inamigos ]</div>
+        </div>
+
+        <!-- IMAGE PLACEHOLDER 4 -->
+        <!-- Suggested file name: gallery-4.jpg -->
+        <div class="gallery-item gallery-item--wide">
+          <img src="gallery-4.jpg" alt="InAmigos Foundation Gallery 4"
+               onerror="this.parentElement.classList.add('gallery-placeholder')" />
+          <div class="gallery-fallback">[ gallery-4.jpg ]<br/>Download from Instagram @inamigos ]</div>
+        </div>
+
+      </div>
+      <div class="gallery-cta">
+        <a href="https://inamigosfoundation.org.in/gallery" target="_blank" class="btn btn-outline-dark">View Full Gallery →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CALL TO ACTION SECTION
+  ============================================================ -->
+  <section class="cta-section" id="cta">
+    <div class="container cta-inner">
+      <span class="section-eyebrow light">Make a Difference</span>
+      <h2 class="cta-title">Together, We Can Change Lives</h2>
+      <p class="cta-sub">
+        Join 200+ volunteers already working across 28 states. Every action — big or small —
+        creates ripples of change that reach 50,000+ lives.
+      </p>
+      <div class="cta-actions">
+        <a href="https://rzp.io/l/kWQ87HP" target="_blank" class="btn btn-cta-primary">💛 Donate Now</a>
+        <a href="https://forms.gle/AB4c1hLaDDmtrKGU7" target="_blank" class="btn btn-cta-secondary">🤝 Volunteer With Us</a>
+        <a href="https://inamigosfoundation.org.in/became-volunteer" target="_blank" class="btn btn-cta-outline">📢 Join the Mission</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT & FOOTER
+  ============================================================ -->
+  <footer class="footer" id="contact">
+    <div class="container footer-grid">
+
+      <div class="footer-brand">
+        <!-- IMAGE PLACEHOLDER: Footer logo -->
+        <!-- Suggested file name: logo-white.png OR reuse logo.png -->
+        <img src="logo.png" alt="InAmigos Foundation" class="footer-logo"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+        <div class="footer-logo-text" style="display:none;">InAmigos Foundation</div>
+        <p class="footer-tagline">Empowering Lives, Spreading Compassion</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/inamigos.inamigos" target="_blank" class="social-btn">Facebook</a>
+          <a href="https://www.instagram.com/inamigos/" target="_blank" class="social-btn">Instagram</a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="https://inamigosfoundation.org.in/causes" target="_blank">Our Causes</a>
+        <a href="https://inamigosfoundation.org.in/volunteers" target="_blank">Volunteers</a>
+        <a href="https://inamigosfoundation.org.in/gallery" target="_blank">Gallery</a>
+        <a href="https://inamigosfoundation.org.in/blog" target="_blank">Blog</a>
+        <a href="https://inamigosfoundation.org.in/events" target="_blank">Events</a>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p>Ward No. 5, Gram Post,<br />Sipat Ujwal Nagar, Bilaspur,<br />Chhattisgarh — 495555</p>
+        <p><a href="mailto:inamigosfoundation@gmail.com">inamigosfoundation@gmail.com</a></p>
+        <p><a href="mailto:support@inamigosfoundation.org.in">support@inamigosfoundation.org.in</a></p>
+        <p><a href="tel:+916267309902">+91 626 730 9902</a></p>
+      </div>
+
+      <div class="footer-certifications">
+        <h4>Registrations & Certifications</h4>
+        <div class="cert-list">
+          <span>✅ Section 8 Non-Profit</span>
+          <span>✅ 80G Certified</span>
+          <span>✅ 12A Certified</span>
+          <span>✅ CSR-1 Registered</span>
+          <span>✅ NITI Aayog</span>
+          <span>✅ ISO 9001:2015</span>
+        </div>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 InAmigos Foundation. All Rights Reserved. | Founded by Mr. Govind Shukla</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('mobileMenu');
+      menu.classList.toggle('open');
+    }
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    // Navbar scroll effect
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.navbar');
+      navbar.classList.toggle('scrolled', window.scrollY > 50);
+    });
+  </script>
+
+</body>
+</html>
