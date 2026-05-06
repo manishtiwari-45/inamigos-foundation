@@ -171,8 +171,8 @@ a { color: inherit; text-decoration: none; }
 .logo { display: flex; align-items: center; }
 
 .logo-img {
-  height: 44px;
-  width: auto;
+  height: 150px;
+  width: 150px;
   object-fit: contain;
 }
 
@@ -287,14 +287,13 @@ a { color: inherit; text-decoration: none; }
   background-position: center;
 }
 
-/* When hero-bg.jpg is added, uncomment below and comment out the gradient above */
-/*
+
 .hero {
   background-image: url('hero-bg.jpg');
   background-size: cover;
   background-position: center;
 }
-*/
+
 
 .hero-overlay {
   position: absolute;
