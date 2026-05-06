@@ -1,8 +1,3 @@
-/* ============================================================
-   INAMIGOS FOUNDATION — style.css
-   Design: Warm editorial — saffron amber + deep forest green
-   Fonts: Cormorant Garamond (display) + Outfit (body)
-   ============================================================ */
 
 /* ── CSS Variables ─────────────────────────────────────────── */
 :root {
@@ -33,7 +28,7 @@
   --gap:   clamp(1.5rem, 4vw, 3rem);
 }
 
-/* ── Reset & Base ───────────────────────────────────────────── */
+
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 html { scroll-behavior: smooth; }
@@ -59,7 +54,6 @@ a { color: inherit; text-decoration: none; }
 
 .section { padding-block: clamp(4rem, 8vw, 7rem); }
 
-/* ── Typography Helpers ─────────────────────────────────────── */
 .section-eyebrow {
   display: inline-block;
   font-family: var(--font-body);
@@ -275,7 +269,6 @@ a { color: inherit; text-decoration: none; }
   text-align: center;
   padding-block: 8rem 4rem;
 
-  /* BACKGROUND: Change to url('hero-bg.jpg') after downloading the image */
   background:
     linear-gradient(
       160deg,
@@ -418,11 +411,7 @@ a { color: inherit; text-decoration: none; }
   background: rgba(234,243,236,0.7);
 }
 
-.img-wrapper img:not([src=""]):not([src="about.jpg"]) + .img-caption { display: none; }
 
-/* Hide caption when image loads successfully */
-.img-wrapper img { position: relative; z-index: 1; }
-.img-caption { z-index: 0; }
 
 .certifications {
   display: flex;
