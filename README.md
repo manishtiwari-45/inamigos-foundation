@@ -10,7 +10,7 @@ initiatives, and social impact.
 
 ## 🔗 Live Demo
 
-**[View Live Site →](https://inamigos-foundation.netlify.app/)**
+**[View Live Site](https://inamigos-foundation.netlify.app/)**
 
 ---
 
